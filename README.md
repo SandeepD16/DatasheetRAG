@@ -22,10 +22,10 @@ Uses an LLM to answer queries
 User Query --> Retriever (FAISS) --> Relevant Datasheet Chunks --? LLM (FLAN-T5 Large) -->Generated Answer
 
 **Tech Stack**
-Python
-LangChain
-FAISS (Vector Database)
-HuggingFace Transformers
-FLAN-T5 Large (LLM)
-Sentence Transformers (Embeddings)
-Google Colab
+Python,
+LangChain,
+FAISS (Vector Database),
+HuggingFace Transformers,
+FLAN-T5 Large (LLM),
+Sentence Transformers (Embeddings),
+Google Colab.
