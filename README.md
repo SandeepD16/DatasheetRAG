@@ -19,15 +19,7 @@ Uses an LLM to answer queries
 
 **Architecture**
 
-User Query
-↓
-Retriever (FAISS)
-↓
-Relevant Datasheet Chunks
-↓
-LLM (FLAN-T5 Large)
-↓
-Generated Answer
+User Query --> Retriever (FAISS) --> Relevant Datasheet Chunks --? LLM (FLAN-T5 Large) -->Generated Answer
 
 **Tech Stack**
 Python
